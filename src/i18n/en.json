@@ -1,0 +1,94 @@
+{
+    "MENU": {
+      "JOB": "Works",
+      "EDUCATION": "Education",
+      "ABOUT_ME": "About me",
+      "CONTACT": "Contact",
+      "RESUME": "Resume",
+      "DESC": "Resume.pdf",
+      "DOC": "/assets/Resume.pdf"
+    },
+    "HOME": {
+      "WELCOME": "Welcome!",
+      "INTRO": "This is my personal website.",
+      "LEARN_MORE": "Learn more"
+    },
+    
+    "CONTACT": {
+      "TITLE": "Contact",
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "MESSAGE": "Message",
+      "SEND": "Send"
+    },
+    "sobremi": {
+      "IMAGEN": "/assets/img/cv - copia.jpg",
+      "PARRAFO": "Hello! My name is Facundo Zylinski, I'm 23 years old and I have had a great passion for technology and computing since I was a child. Currently, I'm studying Computer Engineering, a career that I'm really passionate about and that has allowed me to keep discovering the potential of this industry.</br></br>I'm a proactive person, with a strong desire to learn and grow both professionally and intellectually. I consider myself a self-taught person and I enjoy investigating and discovering new solutions to the challenges that come my way. I believe that there is always something new to learn, and that's why I like to be in constant evolution.</br></br>I love to take on challenges and tackle complex problems, as they allow me to grow and improve as a professional. I think that technology is a fascinating field that is constantly evolving, and I would like to be part of a team that is at the forefront of this industry. I'm convinced that I can bring a lot of value to any company that is looking for a profile like mine.</br></br>I'm a responsible and committed person, with skills to work in a team and adapt to different situations. I'm motivated to work in a collaborative and growth-oriented environment, where I can contribute my knowledge and learn from other professionals.</br></br>If you're looking for someone motivated, proactive, and with great potential, don't hesitate to contact me. I'm sure we can work together to achieve great things!"
+    },
+    
+    "ESTUDIOS": [
+      {
+        "img": "/assets/img/uai - copia.png",
+        "title": "Computer Systems Engineering",
+        "subtitle": "Universidad Abierta Interamericana",
+        "paragraph": "Carrying out the fourth year of the career, with more than half of the subjects approved.",
+        "date": "February 2020 - Present"
+      },
+      {
+        "img": "/assets/img/educacionit.png",
+        "title": "Front End WEB Developer & Node.JS",
+        "subtitle": "EducacionIT",
+        "paragraph": "Do those careers, with knowledge in Front-end and Back-end",
+        "date": ""
+      },
+      {
+        "img": "/assets/img/percipio.png",
+        "title": "Securuty+",
+        "subtitle": "Percipio, Buenos Aires",
+        "paragraph": "Skills in network security, compliance with policies and procedures.",
+        "date": ""
+      },
+      {
+        "img": "/assets/img/sanjoaquin - copia.jpg",
+        "title": "Bilingual school",
+        "subtitle": "San Joaquin School, Buenos Aires",
+        "paragraph": "",
+        "date": "February 2011 - December 2017"
+      }
+    ],
+    
+    "TRABAJOS": [
+      {
+        "titulo": "Functional analyst",
+        "imagen": "/assets/img/dikter.png",
+        "parrafo1": "Create technical and functional documentation.",
+        "parrafo2": "I defined use cases and tests.",
+        "parrafo3": "I identified opportunities for improvement.",
+        "fecha": "October 2022 - Present"
+      },
+      {
+        "titulo": "Security Delivery Associate",
+        "imagen": "/assets/img/accenture - copia.png",
+        "parrafo1": "I implemented security solutions.",
+        "parrafo2": "Supervised and monitored security systems.",
+        "parrafo3": "Performed risk and vulnerability analysis.",
+        "fecha": "July 2022 - September 2022"
+      },
+      {
+        "titulo": "Electronics and Telecommunications Technician",
+        "imagen": "/assets/img/fonoglobal.png",
+        "parrafo1": "Technical support and customer service.",
+        "parrafo2": "Maintenance and configuration of equipment.",
+        "parrafo3": "Coordination and assistance to technicians.",
+        "fecha": "May 2021 - July 2022"
+      },
+      {
+        "titulo": "Electronics and Telecommunications Technician",
+        "imagen": "/assets/img/twireless - copia.jpg",
+        "parrafo1": "Technical support and customer service.",
+        "parrafo2": "Maintenance and configuration of equipment.",
+        "parrafo3": "Coordination and assistance to technicians.",
+        "fecha": "July 2019 - May 2021"
+      }
+    ]
+  }

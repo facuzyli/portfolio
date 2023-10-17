@@ -1,0 +1,101 @@
+{
+    "MENU": {
+      "JOB": "Trabajo",
+      "EDUCATION": "Estudios",
+      "ABOUT_ME": "Sobre mí",
+      "CONTACT": "Contacto",
+      "RESUME": "Currículum",
+      "DESC": "Currículum.pdf",
+      "DOC": "/assets/Currículum.pdf"
+
+    },
+    "HOME": {
+      "WELCOME": "¡Bienvenido!",
+      "INTRO": "Esta es mi página web personal.",
+      "LEARN_MORE": "Más información"
+    },
+    "sobremi": {
+      "IMAGEN": "/assets/img/cv - copia.jpg",
+      "PARRAFO": "¡Hola! Mi nombre es Facundo Zylinski, tengo 23 años y desde pequeño he tenido una gran pasión por la tecnología y la informática. Actualmente, estoy estudiando Ingeniería en Sistemas, una carrera que me apasiona y que me ha permitido seguir descubriendo el potencial de esta industria. </br></br>Soy una persona proactiva, con muchas ganas de aprender y crecer tanto profesional como intelectualmente. Me considero autodidacta y me gusta investigar y descubrir nuevas soluciones a los desafíos que se me presentan. Creo que siempre hay algo nuevo por aprender, y por eso me gusta estar en constante evolución.</br></br>Me encanta asumir retos y enfrentar problemas complejos, ya que me permiten crecer y mejorar como profesional. Creo que la tecnología es un campo apasionante que está en constante evolución, y me gustaría formar parte de un equipo que esté a la vanguardia en este ámbito. Estoy convencido de que puedo aportar mucho valor a cualquier empresa que busque un perfil como el mío.</br>Soy una persona responsable y comprometida con mi trabajo, con habilidades para trabajar en equipo y adaptarme a diferentes situaciones. Me motiva trabajar en un ambiente de colaboración y crecimiento, donde pueda aportar mis conocimientos y aprender de otros profesionales.</br></br>      Si estás buscando a alguien motivado, proactivo y con un gran potencial, no dudes en contactarme. ¡Estoy seguro de que podemos trabajar juntos para alcanzar grandes metas!"
+    },
+    "CONTACT": [
+      {
+      "img": "/assets/img/linkedin.png",
+      "TITLE": "linkedin",
+      "LINK": "linkedin.com/facuzylinski"
+      },
+      {
+        "img": "/assets/img/mail.png",
+        "TITLE": "Gmail",
+        "LINK": "Gmail.com/facuzylinski"
+        }
+    ],
+    
+  
+    "ESTUDIOS": [
+      {
+        "img": "/assets/img/uai - copia.png",
+        "title": "Ingeniería en Sistemas Informáticos",
+        "subtitle": "Universidad Abierta Interamericana",
+        "paragraph": "Realizando el cuarto año de carrera, con mas de la mitad de materias aprobadas.",
+        "date": "Febrero 2020 - Actualidad"
+      },
+      {
+        "img": "/assets/img/educacionit.png",
+        "title": "Front End WEB Developer y Node.JS",
+        "subtitle": "EducacionIT",
+        "paragraph": "Realice  esas carreras, con conocimiento en Front-end y Back-end",
+        "date": ""
+      },
+      {
+        "img": "/assets/img/percipio.png",
+        "title": "Securuty+",
+        "subtitle": "Percipio, Buenos Aires",
+        "paragraph": "Habilidades en seguridad de redes, cumplimiento de políticas y procedimientos.",
+        "date": ""
+      },
+      {
+        "img": "/assets/img/sanjoaquin - copia.jpg",
+        "title": "Colegio Bilingüe",
+        "subtitle": "San Joaquin School, Buenos Aires",
+        "paragraph": "",
+        "date": "Febrero 2011 - Diciembre 2017"
+      }
+    ],
+    
+
+    "TRABAJOS": [
+      {
+        "titulo": "Analista Funcional",
+        "imagen": "/assets/img/dikter.png",
+        "parrafo1": "Elaboré documentación técnica y funcional.",
+        "parrafo2": "Definí casos de uso y pruebas.",
+        "parrafo3": "Identifiqué oportunidades de mejora.",
+        "fecha": "Octubre 2022 - Actualidad"
+      },
+      {
+        "titulo": "Security Delivery Associate",
+        "imagen": "/assets/img/accenture - copia.png",
+        "parrafo1": "Implementé soluciones de seguridad.",
+        "parrafo2": "Supervisé y monitoreé sistemas de seguridad.",
+        "parrafo3": "Realicé análisis de riesgos y vulnerabilidades.",
+        "fecha": "Julio 2022 - Septiembre 2022"
+      },
+      {
+        "titulo": "Técnico en Electrónica y Telecomunicaciones",
+        "imagen": "/assets/img/fonoglobal.png",
+        "parrafo1": "Soporte técnico y atención a los cliente.",
+        "parrafo2": "Mantenimiento y configuración de equipos.",
+        "parrafo3": "Coordinación y asistencia a los técnicos.",
+        "fecha": "Mayo 2021 - Julio 2022"
+      },
+      {
+        "titulo": "Técnico en Electrónica y Telecomunicaciones",
+        "imagen": "/assets/img/twireless - copia.jpg",
+        "parrafo1": "Soporte técnico y atención a los cliente.",
+        "parrafo2": "Mantenimiento y configuración de equipos.",
+        "parrafo3": "Coordinación y asistencia a los técnicos.",
+        "fecha": "Julio 2019 - Mayo 2021"
+      }
+    ]
+  }
