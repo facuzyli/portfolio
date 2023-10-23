@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={HomePage} />
+      <Route path="/" element={<HomePage />} />
         {/* Configura las rutas para las otras páginas aquí */}
       </Routes>
     </Router>
