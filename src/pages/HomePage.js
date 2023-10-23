@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="categories-container">
         <Link to="/trabajo" className="category">{data.MENU.JOB}</Link>
         <Link to="/estudios" className="category">{data.MENU.EDUCATION}</Link>
-        <Link to="/sobre-mi" className="category">{data.MENU.ABOUT_ME}</Link>
+        <Link to="/sobremi" className="category">{data.MENU.ABOUT_ME}</Link>
         <Link to="/contacto" className="category">{data.MENU.CONTACT}</Link>
         <Link to="/curriculum" className="category">{data.MENU.RESUME}</Link>
       </div>
