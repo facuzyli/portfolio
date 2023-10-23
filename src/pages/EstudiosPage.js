@@ -1,47 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import data from '../i18n/es.json';
-import './EstudiosPage.css';
 
 const EstudiosPage = () => {
+  const [selectedStudy, setSelectedStudy] = useState(null);
+
   return (
-    <div className="Iconos-container">
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
-        <div class="circulo"></div>
+    <div>
+      <div className="studies-circles">
+        {data.ESTUDIOS.map((estudio, index) => (
+          <div key={index} className="study-circle" onClick={() => setSelectedStudy(estudio)}>
+            <img src={estudio.img} alt={estudio.title} />
+          </div>
+        ))}
+      </div>
+
+      {selectedStudy && (
+        <div className="study-details">
+          <h2>{selectedStudy.title}</h2>
+          <h3>{selectedStudy.subtitle}</h3>
+          <p>{selectedStudy.paragraph}</p>
+          <p>{selectedStudy.date}</p>
+        </div>
+      )}
     </div>
   );
 };

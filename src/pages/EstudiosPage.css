@@ -1,11 +1,19 @@
-.Iconos-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10%, 1fr)); /* Columnas automáticas */
-    gap: 5px; /* Espacio entre los círculos */
-    
-}
-.circulo {
-    padding-bottom: 100%; /* Esto asegura que cada div tenga una relación de aspecto de 1:1 para que sean círculos */
-    background-color: #3498db; /* Puedes cambiar el color de fondo según tus preferencias */
-    border-radius: 50%; /* Esto convierte el div en un círculo perfecto */
+.studies-circles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .study-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .study-details {
+    margin-top: 20px;
+    text-align: center;
   }

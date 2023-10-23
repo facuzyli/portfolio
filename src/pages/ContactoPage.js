@@ -6,7 +6,7 @@ import './ContactoPage.css';
 const ContactoPage = () => {
   return (
     <div className="Iconos-container">
-        <img className='circulo'></img>
+    
         
     </div>
   );

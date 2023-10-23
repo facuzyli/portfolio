@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../i18n/es.json';
+import dataES from '../i18n/es.json';
+import dataEN from '../i18n/en.json';
 import './HomePage.css';
 
-const HomePage = () => {
+const HomePage  = ({ language }) => {
+  const data = language === 'es' ? dataES : dataEN;
+  
   return (
     <div className="home-container">
       <h1 className="home-title">{data.HOME.WELCOME}</h1>
