@@ -5,30 +5,24 @@ import EstudiosPage from './pages/EstudiosPage';
 import ContactoPage from './pages/ContactoPage';
 import TrabajoPage from './pages/TrabajoPage';
 import SobreMiPage from './pages/SobreMiPage';
-// Importa los otros componentes de páginas aquí
 
 function App() {
-  const [language, setLanguage] = useState('es'); // 'es' es el valor predeterminado
-
-  // Función para cambiar el lenguaje
-  const handleLanguageChange = (lang) => {
-    setLanguage(lang);
-  };
+  const [language, setLanguage] = useState('es');
 
   return (
     <Router>
-      {/* Seleccionador de Lenguaje */}
       <div className="language-selector">
-        <button onClick={() => handleLanguageChange('es')}>ES</button>
-        <button onClick={() => handleLanguageChange('en')}>EN</button>
+        <button onClick={() => setLanguage('es')}>ES</button>
+        <button onClick={() => setLanguage('en')}>EN</button>
       </div>
+
+      {/* Rutas */}
       <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/estudios" element={<EstudiosPage />} />
-      <Route path="/contacto" element={<ContactoPage />} />
-      <Route path="/sobremi" element={<SobreMiPage />} />
-      <Route path="/trabajo" element={<TrabajoPage />} />
-      
+        <Route path="/" element={<HomePage language={language} />} />
+        <Route path="/estudios" element={<EstudiosPage language={language} />} />
+        <Route path="/contacto" element={<ContactoPage language={language} />} />
+        <Route path="/sobremi" element={<SobreMiPage language={language} />} />
+        <Route path="/trabajo" element={<TrabajoPage language={language} />} />
       </Routes>
     </Router>
   );

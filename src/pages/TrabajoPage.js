@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from "react-slick";
 import data from '../i18n/es.json';
+import BackButton from '../components/BackButton';
 
 const TrabajoPage = () => {
   const settings = {
@@ -13,6 +14,7 @@ const TrabajoPage = () => {
 
   return (
     <div>
+    <BackButton />
       <Slider {...settings}>
         {data.TRABAJOS.map((trabajo, index) => (
           <div key={index}>

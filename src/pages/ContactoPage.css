@@ -1,0 +1,6 @@
+.Iconos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10%, 1fr)); /* Columnas automáticas */
+    gap: 5px; /* Espacio entre los círculos */
+    
+}
