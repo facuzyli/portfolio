@@ -6,8 +6,8 @@ import './HomePage.css';
 
 const HomePage = ({ language }) => {
   const data = language === 'es' ? dataES : dataEN;
-  const downloadLink = language === 'es' ? "../assets/Curriculum.pdf" : "/assets/Resume.pdf";
-  const downloadText = language === 'es' ? data.MENU.DESC : "Resume.pdf";
+  const downloadLink = language === 'es' ? dataES.MENU.DOC : dataEN.MENU.DOC;
+  const downloadText = language === 'es' ? data.MENU.DESC : 'Resume.pdf';
 
   return (
     <div className="home-container">

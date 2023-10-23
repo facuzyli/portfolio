@@ -6,7 +6,7 @@
       "CONTACT": "Contact",
       "RESUME": "Resume",
       "DESC": "Resume.pdf",
-      "DOC": "/assets/Resume.pdf"
+      "DOC": "../../public/assets/Resume.pdf"
     },
     "HOME": {
       "WELCOME": "Welcome!",

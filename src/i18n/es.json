@@ -6,7 +6,7 @@
       "CONTACT": "Contacto",
       "RESUME": "Currículum",
       "DESC": "Currículum.pdf",
-      "DOC": "/assets/Currículum.pdf"
+      "DOC": "../../public/assets/Currículum.pdf"
 
     },
     "HOME": {
