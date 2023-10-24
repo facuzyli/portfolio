@@ -6,7 +6,7 @@
       "CONTACT": "Contact",
       "RESUME": "Resume",
       "DESC": "Resume.pdf",
-      "DOC": "../../public/assets/Resume.pdf"
+      "DOC": "Resume.pdf"
     },
     "HOME": {
       "WELCOME": "Welcome!",
@@ -14,17 +14,23 @@
       "LEARN_MORE": "Learn more"
     },
     
-    "CONTACT": {
-      "TITLE": "Contact",
-      "NAME": "Name",
-      "EMAIL": "Email",
-      "MESSAGE": "Message",
-      "SEND": "Send"
-    },
+    
     "sobremi": {
       "IMAGEN": "/assets/img/cv - copia.jpg",
       "PARRAFO": "Hello! My name is Facundo Zylinski, I'm 23 years old and I have had a great passion for technology and computing since I was a child. Currently, I'm studying Computer Engineering, a career that I'm really passionate about and that has allowed me to keep discovering the potential of this industry.</br></br>I'm a proactive person, with a strong desire to learn and grow both professionally and intellectually. I consider myself a self-taught person and I enjoy investigating and discovering new solutions to the challenges that come my way. I believe that there is always something new to learn, and that's why I like to be in constant evolution.</br></br>I love to take on challenges and tackle complex problems, as they allow me to grow and improve as a professional. I think that technology is a fascinating field that is constantly evolving, and I would like to be part of a team that is at the forefront of this industry. I'm convinced that I can bring a lot of value to any company that is looking for a profile like mine.</br></br>I'm a responsible and committed person, with skills to work in a team and adapt to different situations. I'm motivated to work in a collaborative and growth-oriented environment, where I can contribute my knowledge and learn from other professionals.</br></br>If you're looking for someone motivated, proactive, and with great potential, don't hesitate to contact me. I'm sure we can work together to achieve great things!"
     },
+    "CONTACT": [
+      {
+      "img": "/assets/img/linkedin.png",
+      "TITLE": "linkedin",
+      "LINK": "https://www.linkedin.com/in/lucas-facundo-zylinski-6a414716a/"
+      },
+      {
+        "img": "/assets/img/mail.png",
+        "TITLE": "Gmail",
+        "LINK": "mailto:facuzylinski@gmail.com?Subject=Solicitud%20de%20Empleo"
+        }
+    ],
     
     "ESTUDIOS": [
       {

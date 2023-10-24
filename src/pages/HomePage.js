@@ -6,8 +6,7 @@ import './HomePage.css';
 
 const HomePage = ({ language }) => {
   const data = language === 'es' ? dataES : dataEN;
-  const downloadLink = language === 'es' ? dataES.MENU.DOC : dataEN.MENU.DOC;
-  const downloadText = language === 'es' ? data.MENU.DESC : 'Resume.pdf';
+  const downloadLink = `/assets/${data.MENU.DOC}`;
 
   return (
     <div className="home-container">
@@ -18,7 +17,7 @@ const HomePage = ({ language }) => {
         <Link to="/estudios" className="category">{data.MENU.EDUCATION}</Link>
         <Link to="/sobremi" className="category">{data.MENU.ABOUT_ME}</Link>
         <Link to="/contacto" className="category">{data.MENU.CONTACT}</Link>
-        <a href={downloadLink} download={downloadText} className="category">{data.MENU.RESUME}</a>
+        <a href={downloadLink} download className="category">{data.MENU.RESUME}</a>
       </div>
     </div>
   );

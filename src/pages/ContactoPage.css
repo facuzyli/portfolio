@@ -1,6 +1,24 @@
-.Iconos-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10%, 1fr)); /* Columnas automáticas */
-    gap: 5px; /* Espacio entre los círculos */
-    
-}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .contact-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }

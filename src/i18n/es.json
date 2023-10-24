@@ -4,9 +4,9 @@
       "EDUCATION": "Estudios",
       "ABOUT_ME": "Sobre mí",
       "CONTACT": "Contacto",
-      "RESUME": "Currículum",
-      "DESC": "Currículum.pdf",
-      "DOC": "../../public/assets/Currículum.pdf"
+      "RESUME": "Curriculum",
+      "DESC": "Curriculum.pdf",
+      "DOC": "Curriculum.pdf"
 
     },
     "HOME": {
@@ -22,12 +22,12 @@
       {
       "img": "/assets/img/linkedin.png",
       "TITLE": "linkedin",
-      "LINK": "linkedin.com/facuzylinski"
+      "LINK": "https://www.linkedin.com/in/lucas-facundo-zylinski-6a414716a/"
       },
       {
         "img": "/assets/img/mail.png",
         "TITLE": "Gmail",
-        "LINK": "Gmail.com/facuzylinski"
+        "LINK": "mailto:facuzylinski@gmail.com?Subject=Solicitud%20de%20Empleo"
         }
     ],
     
